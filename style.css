@@ -27,3 +27,6 @@ figcaption em{font-style:normal;font-size:.9rem;color:#8dffb0}
 footer{text-align:center;padding:28px 16px 36px;font-size:.8rem;color:#6c8f76}
 @media (max-width:420px){.grid{grid-template-columns:1fr}main{padding-top:32px}}
 @media (prefers-reduced-motion:reduce){.card{transition:none}}
+.promo{max-width:860px;margin:0 auto 48px;text-align:center}
+.promo video{display:block;width:100%;height:auto;border-radius:16px;border:1px solid rgba(110,255,160,.25);box-shadow:0 0 28px rgba(80,255,140,.15);background:#000}
+.dl{margin-top:16px}
