@@ -33,3 +33,12 @@ footer{text-align:center;padding:28px 16px 36px;font-size:.8rem;color:#6c8f76}
 
 .desc a,.desc a:visited{color:#6bf59a !important;font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .desc a:hover{color:#c9ffd9}
+
+.note{max-width:560px;margin:8px auto 0;font-size:.85rem;color:#8fc49c}
+.faq{max-width:720px;margin:40px auto;padding:0 16px}
+.faq h2{color:#8dffb0;font-size:1.2rem}
+.faq details{border:1px solid #1d3a27;border-radius:10px;padding:10px 14px;margin:8px 0;background:#05090a}
+.faq summary{cursor:pointer;color:#a6ffc2;font-weight:700}
+.faq p{color:#b5d9bf;margin:8px 0 0}
+.faq .faq-wrap{border:none;background:none;padding:0}
+.faq .faq-title{font-size:1.2rem;color:#8dffb0}
