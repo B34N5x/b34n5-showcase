@@ -1,0 +1,29 @@
+*{box-sizing:border-box}
+html{background:#05090a}
+body{margin:0;min-height:100vh;color:#d8f5df;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55;
+background:radial-gradient(ellipse at 50% -10%,rgba(60,220,110,.22),transparent 60%),radial-gradient(ellipse at 50% 110%,rgba(40,180,90,.12),transparent 55%),#05090a}
+main{max-width:1180px;margin:0 auto;padding:48px 20px 24px}
+.hero{text-align:center}
+h1{margin:0;font-size:clamp(3rem,10vw,5.5rem);letter-spacing:.12em;color:#8dffb0;text-shadow:0 0 18px rgba(80,255,140,.55),0 0 48px rgba(80,255,140,.25)}
+.desc{max-width:720px;margin:16px auto 32px;color:#b5d9bf;font-size:1.05rem}
+.countdown{margin:0 auto 48px}
+.timer{display:flex;justify-content:center;gap:clamp(8px,2.5vw,20px)}
+.unit{min-width:clamp(68px,18vw,120px);padding:14px 8px;border:1px solid rgba(110,255,160,.28);border-radius:14px;background:rgba(20,50,30,.35);box-shadow:0 0 22px rgba(80,255,140,.12) inset,0 0 18px rgba(80,255,140,.1)}
+.unit span{display:block;font-variant-numeric:tabular-nums;font-size:clamp(1.8rem,7vw,3.2rem);font-weight:700;color:#a6ffc2;text-shadow:0 0 12px rgba(80,255,140,.6)}
+.unit small{text-transform:uppercase;letter-spacing:.14em;font-size:.7rem;color:#7fb48e}
+.when{margin:14px 0 0;color:#8fc49c;letter-spacing:.05em}
+.live-text{margin:0 0 14px;font-size:clamp(2rem,7vw,3rem);font-weight:700;color:#a6ffc2;text-shadow:0 0 16px rgba(80,255,140,.7)}
+.btn{display:inline-block;padding:12px 26px;border-radius:999px;background:#3ddc78;color:#03140a;font-weight:700;text-decoration:none;box-shadow:0 0 22px rgba(80,255,140,.45)}
+.btn:hover,.btn:focus-visible{background:#6bf59a}
+[hidden]{display:none!important}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+.card{margin:0;border-radius:16px;overflow:hidden;background:rgba(12,28,18,.7);border:1px solid rgba(110,255,160,.18);box-shadow:0 0 24px rgba(80,255,140,.08);transition:box-shadow .2s,transform .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 0 30px rgba(80,255,140,.25)}
+.card img{display:block;width:100%;height:auto}
+figcaption{padding:12px 16px 16px;display:flex;flex-direction:column;gap:2px}
+figcaption strong{font-size:1.1rem;color:#c9ffd9}
+figcaption span{font-size:.85rem;color:#7fb48e}
+figcaption em{font-style:normal;font-size:.9rem;color:#8dffb0}
+footer{text-align:center;padding:28px 16px 36px;font-size:.8rem;color:#6c8f76}
+@media (max-width:420px){.grid{grid-template-columns:1fr}main{padding-top:32px}}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}

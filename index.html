@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>B34N5 Showcase</title>
+<meta name="description" content="B34N5 collection showcase countdown.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="hero">
+    <h1>B34N5</h1>
+    <p class="desc">B34N5 is a hand-drawn character exploring the XRPL, one tool at a time. Each card captures a different stop on that path — learning to use the ledger's tools so more people get familiar with the technology. Like a bean planted in good soil, the more you nurture it, the more it grows.</p>
+    <section id="countdown" class="countdown" aria-live="polite">
+      <div class="timer" id="timer">
+        <div class="unit"><span id="d">--</span><small>Days</small></div>
+        <div class="unit"><span id="h">--</span><small>Hours</small></div>
+        <div class="unit"><span id="m">--</span><small>Minutes</small></div>
+        <div class="unit"><span id="s">--</span><small>Seconds</small></div>
+      </div>
+      <div class="live" id="live" hidden>
+        <p class="live-text">Live now</p>
+        <a class="btn" href="https://xrp.cafe/collection/b34n5" rel="noopener noreferrer" target="_blank">View the collection</a>
+      </div>
+      <p class="when">19 Oct 2026, 10:00 UTC</p>
+    </section>
+  </header>
+  <section class="grid" aria-label="The six cards">
+    <figure class="card"><img src="img/01_origin.jpg" width="800" height="450" alt="Origin card" loading="lazy"><figcaption><strong>Origin</strong><span>1 of 6</span><em>Bean: Rare</em></figcaption></figure>
+    <figure class="card"><img src="img/02_lantern_path.jpg" width="800" height="450" alt="The Lantern Path card" loading="lazy"><figcaption><strong>The Lantern Path</strong><span>2 of 6</span><em>Uncommon</em></figcaption></figure>
+    <figure class="card"><img src="img/03_workbench_lock.jpg" width="800" height="450" alt="Workbench Lock card" loading="lazy"><figcaption><strong>Workbench Lock</strong><span>3 of 6</span><em>Glowing Brass Time Lock + Master Workbench: Legendary</em></figcaption></figure>
+    <figure class="card"><img src="img/04_neon_desk.jpg" width="800" height="450" alt="Neon Desk card" loading="lazy"><figcaption><strong>Neon Desk</strong><span>4 of 6</span><em>Hive Mind Portal: Rare</em></figcaption></figure>
+    <figure class="card"><img src="img/05_terminal.jpg" width="800" height="450" alt="Terminal card" loading="lazy"><figcaption><strong>Terminal</strong><span>5 of 6</span><em>Strapped Visor Mask</em></figcaption></figure>
+    <figure class="card"><img src="img/06_book_staircase.jpg" width="800" height="450" alt="Book Staircase card" loading="lazy"><figcaption><strong>Book Staircase</strong><span>6 of 6</span><em>Uncommon</em></figcaption></figure>
+  </section>
+</main>
+<footer>AI-assisted art. Not financial advice.</footer>
+<script src="countdown.js"></script>
+</body>
+</html>
